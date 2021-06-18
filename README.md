@@ -1,3 +1,9 @@
+# 테스트
+
+### `brew install yarn`
+### `yarn add cross-env --dev`
+### `yarn start`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
