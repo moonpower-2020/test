@@ -1,7 +1,8 @@
-# Mac에서 개발환경 셋팅하기
+# Mac에서 개발환경 셋팅하기  
 
 ## [기본 셋팅]
 1. Homebrew 설치하기
+
 	공식홈페이지: https://brew.sh/index_ko
 
 	터미널에 붙여넣기 하세요.
@@ -21,9 +22,11 @@
 	### `git clone https://github.com/moonpower-2020/test.git 디렉토리명` 
 
 	-- (디렉토리명 설정 안할 경우, 
-			### `git clone https://github.com/moonpower-2020/test.git` 
-		깃헙 리파지토리 이름과 동일한 test 로 디렉토리가 생성된다.
-		)
+
+	### `git clone https://github.com/moonpower-2020/test.git` 
+	
+	깃헙 리파지토리 이름과 동일한 test 로 디렉토리가 생성된다. 
+	)
 
 2. 프로젝트 디렉토리로 이동
 	
@@ -37,6 +40,15 @@
 4. 단순하게 현재 소스로 웹페이지 구동 해보는 방법
 	
 	### `yarn start`
+
+
+## [웹페이지 편집기 선택]
+- visual studio code
+
+1. visual studio code 다운로드  
+
+	https://code.visualstudio.com/download
+
 
 
 # Getting Started with Create React App
