@@ -1,8 +1,43 @@
-# 테스트
+# Mac에서 개발환경 셋팅하기
 
-### `brew install yarn`
-### `yarn add cross-env --dev`
-### `yarn start`
+## [기본 셋팅]
+1. Homebrew 설치하기
+	공식홈페이지: https://brew.sh/index_ko
+
+	터미널에 붙여넣기 하세요.
+	### `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+
+
+2. Homebrew 이용하여 git 설치하기
+	### `brew install git`	
+
+
+3. react 실행을 위해서 yarn 설치하기
+	### `brew install yarn`
+
+
+## [프로젝트 실행을 위한 셋팅]
+1. github  소스 가져오기 (git clone)
+	### `git clone https://github.com/moonpower-2020/test.git 디렉토리명` 
+
+	-- (디렉토리명 설정 안할 경우, 
+			### `git clone https://github.com/moonpower-2020/test.git` 
+		깃헙 리파지토리 이름과 동일한 test 로 디렉토리가 생성된다.
+		)
+
+2. 프로젝트 디렉토리로 이동
+	
+	### `cd 디렉토리명`
+
+3. 프로젝트 디렉토리로 이동 후 환경 셋팅 
+
+	### `yarn add cross-env --dev`
+
+
+4. 단순하게 현재 소스로 웹페이지 구동 해보는 방법
+	
+	### `yarn start`
+
 
 # Getting Started with Create React App
 
